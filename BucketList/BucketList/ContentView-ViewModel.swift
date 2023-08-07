@@ -72,7 +72,7 @@ extension ContentView {
                     } else {
                         Task { @MainActor in
                             self.unlockFailed = true
-                            unlockFailedMessage =bbbbbbbnnnnnmmmm,,,hhhhhh213333qwesx253ew1q authenticationError?.localizedDescription
+                            self.unlockFailedMessage = authenticationError!.localizedDescription
                         }
                     }
                 }
